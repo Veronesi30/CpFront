@@ -1,102 +1,78 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
-    line-height: 1.6;
-  }
-
-  header {
-    background-color: lightblue;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header img {
-    max-width: 200px;
-    height: auto;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  nav a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-
-  main {
-    padding: 40px 20px;
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  .sobre.pousada {
-    margin-bottom: 40px;
-    display: flex;
-  }
-  
-  .sobre.pousada h2 {
-    text-align: center;
-    color: black;
-  }
-  
-  .sobre.pousada p {
-    margin-top: 10px;
-  }
-  
-  .sobre.pousada img {
-    width: 100%;
-    max-width: 600px;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .servicos-destaque {
-    margin-bottom: 40px;
-  }
-  
-  .servicos-destaque h2 {
-    color: black;
-    margin-bottom: 10px;
-  }
-  
-  .servicos-destaque ul {
-    list-style: disc;
-    padding-left: 20px;
-  }
-
-  .localizacao {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .localizacao h2 {
-    color: red;
-    margin-bottom: 10px;
-  }
-  
-  .localizacao iframe {
-    border-radius: 8px;
-    margin-top: 10px;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffefc;
+}
+header {
+position: sticky;
+top: 0;
+background-color: lightblue;
+padding: 15px 0;
+text-align: center;
+}
+header img {
+  display: block;
+  block-size: 135px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.opcoes {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+  gap: 20px;
+}
+.opcoes a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.opcoes a:hover {
+  text-decoration: underline;
+}
+.sobre-pousada {
+  text-align: center;
+}
+.sobre-pousada h3 {
+  margin-top: 10px;
+}
+.sobre-pousada h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.sobre-pousada p {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 10px;
+}
+.sobre-pousada img {
+  width: 45%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.servicos-destaque {
+  text-align: center;
+}
+.servicos-destaque h2 {
+  /* Personalize como preferir */
+}
+.localizacao {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.localizacao iframe {
+  border-radius: 8px;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: lightblue;
+}
