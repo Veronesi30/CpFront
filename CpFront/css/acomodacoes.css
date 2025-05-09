@@ -37,9 +37,12 @@ header img {
 .opcoes a:hover {
     text-decoration: underline;
 }
-.acomodacoes h2, p {
+.acomodacoes h2 {
     margin-top: 10px;
     text-align: center;
+}
+.acomodacoes p{
+    margin: 0 auto;
 }
 .acomodacoes li {
     background-color: lavender;
